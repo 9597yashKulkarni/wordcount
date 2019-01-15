@@ -1,0 +1,10 @@
+<h1>This is home page using django</h1>
+<br/>
+<a href="{% url 'about' %}">About us</a>
+<br>
+<h2>word count  </h2>
+  <form action="{% url 'count' %}">
+    <textarea name="fullText" rows="8" cols="60"></textarea>
+    <br>
+    <input type="submit" name="" value="Submit..!"/>
+  </form>
